@@ -1,0 +1,386 @@
+body{
+  overflow-x: hidden;
+}
+
+header{
+    background-image: url("Image/bg-image.jpg");
+    background-position: contain;
+    background-size:150%;
+    width: 100%;
+    height:120vh;
+    background-repeat: no-repeat;
+    
+}
+ .introduction p{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: medium;
+    border: 1px solid;
+    color:whitesmoke;
+    font-size: 1.9em;
+    padding: 2%;
+}
+header nav{
+  display: flex;
+}
+header nav ul {
+    display:flex;
+    list-style: none;
+    font-size: medium;
+    justify-content: space-between;
+}
+header nav ul li{
+    margin-left: 20%;
+    margin-right: 2%;
+    font-size: 1.8em;
+    color: whitesmoke;
+}
+header nav ul li i{
+    margin-left: 50%;
+}
+header nav ul li h1{
+   margin-top: -5%;
+    margin-left: -80%; */
+    font-size: 1.2em;
+}
+#paragraph{
+  text-align: center;
+  font-size: larger;
+  color: whitesmoke;
+  margin-top: 10%;
+}
+#paragraph button{
+  border-radius: 500px;
+  padding: 1%;
+  font-size: 1.2em;
+}
+  #paragraph h1{
+    font-size: 5em;
+    width: 70%;
+    margin-left: 15%;
+  }
+  #paragraph p{
+    font-size: 1.5em;
+  }
+  .heading-printing{
+    text-align: center;
+  }
+  .bed-room img{
+    width:80%;
+    border-radius: 5% 5% 5%;
+    
+  }
+  .bed-room{
+    display:flex;
+    width: 100%;
+  }
+  .rasi-screen-printing{
+    margin-right: 10%;
+    line-height: 1;
+    width: 60%;
+    padding: 3%;
+  }
+  .rasi-screen-printing p{
+    font-size:1.5em;
+    color:rgb(119, 116, 116);
+    width: 100%;
+  }
+  .rasi-screen-printing button{
+    border-radius: 200px;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 10%;
+  }
+  .rasi-screen-printing h5{
+    color:green;
+    font-size: 1.5em;
+  }
+  .rasi-screen-printing h1{
+    width: 80%;
+    font-size: 3em;
+  }
+  .premium-quality img{
+    width:25%;
+    margin-left: 70%;
+    margin-top: 8%;
+
+  }
+  .premium-quality{
+    display: flex;
+    margin-left: -5%;
+  }
+  .quality-of-rasi img{
+    width:25%;
+  }
+.warranty-protection{
+    display: flex;
+    margin-left: -20%;
+}
+.warranty-protection img{
+    width:10%;
+    margin-left: 80%;
+    margin-top: 3%;
+}
+.warranty-protection,.texts{
+    margin-right: 30%;
+}
+.timely-shipping{
+    display: flex;
+    margin-left: -20%;
+}
+.sustainablity{
+    display: flex;
+}
+.sustainablity img{
+  margin-top: 15%;
+  margin-left: 45%;
+}
+.quality-of-rasi{
+  display: flex;
+  background-color: aqua;
+  padding: 2%;
+  font-size: 1.5em;
+}
+.quality-of-rasi p{
+  color:rgb(119, 116, 116)
+}
+.timely-shipping-text{
+  margin-right: 30%;
+}
+.continue-development{
+  display: flex;
+}
+.continue-development span{
+  border: 1px solid;
+  border-radius: 100px;
+  background-color: aquamarine;
+  color:whitesmoke;
+  font-size:60px;
+}
+.advanced-to-modern{
+  display: flex;
+  margin-left: 10%;
+}
+.modern-improvment{
+  display: flex;
+}
+.advanced-to-modern span{
+  border: 1px solid;
+  border-radius: 100px;
+  background-color: aquamarine;
+  color:whitesmoke;
+  font-size:60px;
+}
+.modern-improvment span{
+  border: 1px solid;
+  border-radius: 100px;
+  background-color: aquamarine;
+  color:whitesmoke;
+  font-size:60px;
+}
+.evolution-rasi-printing{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.evolution-rasi-printing p{
+  font-size: 1.5em;
+  color:rgb(119, 116, 116)
+}
+.all-about-evolution{
+  text-align: center;
+  margin-top: 5%;
+}
+.traditional-print img{
+  width: 120%;
+  height:50vh;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.four-color-printing img{
+  width: 60%;
+  height: 50vh;
+  border-radius: 10px 10px 10px 10px;
+
+}
+.advanced-prints{
+  display: flex;
+}
+.advanced-printing img{
+  height:50vh;
+  width: 150%;
+  border-radius: 10px 10px 10px 10px;
+}
+.four-color-printing img{
+  width:90%;
+  height:50vh;
+}
+.modern-printing{
+  margin-left:20%;
+}
+.all-about-evolution p{
+  font-size: 1.5em;
+  color:rgb(119, 116, 116);
+}
+.all-about-evolution h1{
+  font-size: 3em;
+}
+#paragraph p{
+  width:50%;
+  text-align:center;
+  margin-left: 30%;
+}
+.garment{
+  display: flex;
+  box-shadow:  5px 5px 5px white;
+  background-color: whitesmoke;
+  width: 30%;
+  width: 50%;
+  font-size: 1.2em;
+  padding-left: 1%;
+}
+.arvind{
+  display:flex;
+  box-shadow:  5px 5px 5px white;
+  background-color: whitesmoke;
+  width: 50%;
+  font-size: 1.2em;
+  padding-left: 5%;
+}
+.raymond{
+  display:flex;
+  box-shadow: 5px 5px 5px 5px white;
+  background-color: whitesmoke;
+  width: 50%;
+  text-align: center;
+  font-size: 1.2em;
+  padding-left: 5%;
+}
+.rasi-print-industries{
+  display:flex;
+ gap:25%;
+ align-items: center;
+ margin-left: 5%;
+}
+.some-about-praising{
+  margin-left: 30%;
+}
+.some-about-praising h1{
+  font-size: 2em;
+}
+.some-about-praising p{
+  font-size:1.5em ;
+  width: 80%;
+  margin-left: -10%;
+}
+.stars i{
+  color:rgb(17, 177, 57);
+gap:10%;
+}
+.gratefull-from-user{
+  display: flex;
+  margin-top: 10%;
+  gap: 2%;
+}
+.gratefull-from-user p{
+  font-size: 1.5em;
+  color:rgb(119, 116, 116);
+  padding: 2%;
+}
+.gratefull-from-user p em{
+  color: black;
+}
+.gratefull-from-user h2{
+  font-size: 2em;
+}
+
+.products{
+  display:flex;
+  gap: 3%;
+  margin-left: 5%;
+}
+.products img{
+  border-radius: 10% 10% 10% 10%;
+}
+.showcasing-products{
+  text-align: center;
+}
+.showcasing-products h1{
+  font-size: 5em;
+}
+.showcasing-products p{
+  font-size: 2em;
+  width:80%;
+  margin-left: ;
+}
+.woman-curtain{
+  max-width: fit-content;
+
+}
+.phone-number{
+  display:flex;
+}
+.phone{
+  margin-left: 3%;
+}
+.address-of-rasi{
+  display:flex
+}
+.available-time{
+  display:flex;
+}
+.opening-hour{
+  margin-left: 3%;
+}
+.address{
+  margin-left: 3%;
+}
+.location-and-contact-rasi {
+  background-color: whitesmoke;
+  width:20%;
+  padding-left: 5%;
+  background-image:url(Image/map.jpg) ;
+  background-position: contain;
+  background-size:150%;
+  width: 100%;
+  height:120vh;
+  background-repeat: no-repeat;
+}
+.contactus{
+  padding: 5%;
+  background-color: whitesmoke;
+  width: 20%;
+}
+.available-time i{
+  margin-top:  25%;
+}
+.phone-call-and-mail{
+  display:flex;
+}
+.footer-introduction{
+  width: 60%;
+  text-align: center;
+  margin-left: 20%;
+}
+.ways-of-contact ul{
+   list-style: none;
+}
+.ways-of-contact{
+  display: flex;
+  gap:10%;
+}
+.ways-of-contact a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+footer{
+background-color: black;
+color:whitesmoke
+}
+.copyright p{
+  margin-left: 35%;
+  padding: 2%;
+}
+.footer-logo img{
+  margin-left: 20%;
+}
