@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
@@ -40,7 +41,7 @@ header nav ul li i{
 }
 header nav ul li h1{
    margin-top: -5%;
-    margin-left: -80%; */
+    margin-left: -80%;
     font-size: 1.2em;
 }
 #paragraph{
@@ -311,10 +312,11 @@ gap:10%;
 .showcasing-products p{
   font-size: 2em;
   width:80%;
-  margin-left: ;
 }
-.woman-curtain{
+.woman-curtain img{
   max-width: fit-content;
+  width: 700%;
+  margin-left: 20%;
 
 }
 .phone-number{
@@ -341,15 +343,16 @@ gap:10%;
   padding-left: 5%;
   background-image:url(Image/map.jpg) ;
   background-position: contain;
-  background-size:150%;
-  width: 100%;
-  height:120vh;
+  background-size:80%;
+  width: 120%;
+  height:80vh;
   background-repeat: no-repeat;
 }
 .contactus{
   padding: 5%;
   background-color: whitesmoke;
   width: 20%;
+  box-shadow:10% 10% 10% 10% whitesmoke;
 }
 .available-time i{
   margin-top:  25%;
@@ -374,8 +377,9 @@ gap:10%;
   color: whitesmoke;
 }
 footer{
-background-color: black;
-color:whitesmoke
+background-color: rgb(54, 48, 48);
+color:whitesmoke;
+font-size: 1.2em;
 }
 .copyright p{
   margin-left: 35%;
@@ -383,4 +387,80 @@ color:whitesmoke
 }
 .footer-logo img{
   margin-left: 20%;
+}
+.location-rasi-printing{
+  margin-left:30%;
+}
+.location-rasi-printing p{
+  width:60%;
+  font-size: 1.2em;
+  color:rgb(158, 153, 153);
+}
+.location-rasi-printing h1{
+ font-size:2em;
+}
+.logos{
+  display: flex;
+  margin-top: 3%;
+  gap: 2%;
+}
+.logos img{
+  width: 80%;
+}
+.arvid{
+  width:30%;
+}
+.gap{
+  width:40%;
+}
+.myntra{
+  width:90%;
+}
+.puma{
+  width:80%;
+  margin-top: -3%;
+}
+.converse{
+  width:80%;
+}
+.mark{
+  width:50%;
+}
+.adita{
+  width:30%;
+  margin-bottom: 3%;
+}
+@media only screen and (max-width:375px){
+  header nav{
+    flex-direction: column;
+  }
+  .phone-call-and-mail{
+    flex-direction: column;
+  }
+  .phone-call-and-mail{
+    flex-direction: column;
+  }
+  .gratefull-from-user{
+    flex-direction: column;
+  }
+  .logos{
+    flex-direction: column;
+  }
+  .header nav{
+    flex-direction: column;
+  }
+  .woman-curtain img{
+    position:absolute;
+    width: 100%;
+  }
+  .products{
+    flex-direction: column;
+  }
+  .products img{
+    width: 100%;
+  }
+  .logos img{
+    width: 100%;
+    margin-left: 10%;
+  }
 }
